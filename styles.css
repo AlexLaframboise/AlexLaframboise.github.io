@@ -1,19 +1,4 @@
-/* ---------- 0.  Define palette ---------- */
-:root {
-  /* Light palette (you can keep it for fallback) */
-  --bg: #f9f9f9;
-  --surface: #fff;
-  --text: #222;
-  --border: #e0e0e0;
-  --accent: #5865f2;   /* Discord‑blue */
-  --primary-btn-bg: #5865f2;
-  --primary-btn-text: #fff;
-  --secondary-btn-bg: #40444b;
-  --secondary-btn-text: #e3e3e3;
-}
-
 /* ---------- 1. Dark mode ---------- */
-@media (prefers-color-scheme: dark) {
   :root {
     --bg: #2e2f33;
     --surface: #36393f;
@@ -24,7 +9,6 @@
     --primary-btn-text: #fff;
     --secondary-btn-bg: #40444b;
     --secondary-btn-text: #e3e3e3;
-  }
 }
 
 /* ---------- 2.  Use the vars ---------- */
